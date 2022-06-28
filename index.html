@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Football</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assignment2.css" />
+    <link rel="shortcut icon" href="./Images/favicon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar sticky-top navShad navbar-expand bg-info">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand"
+          href="https://www.uefa.com/uefachampionsleague/"
+          target="_blank"
+        >
+          <img class ="manual" src="./Images/football1.png" "alt="">
+        </a>
+
+        <ul
+          class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+          style="--bs-scroll-height: 100px"
+        >
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://lifebeyondsportmedia.com/Ranking-the-Top-10-Stadiums"
+              target="_blank"
+              >Top10 Arenas
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              href="https://www.lineups.com/articles/top-10-best-soccer-players-in-the-world/"
+              target="_blank"
+              >Top10 Athletes
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="btn btn-dark"
+              href="https://www.footballhistory.org/"
+              role="button"
+              target="_blank"
+              >History</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- END -->
+
+    <!-- Image Slider / Carousal -->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide myMargin1"
+      data-bs-ride="false"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./Images/Player1.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Declan Rice</h5>
+            <p>English Professional Footballer: Player of West Ham United</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/Player2.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Son Heung-min</h5>
+            <p>
+              South Korean Professional Footballer: Player of Tottenham Hotspur
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/Player3.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Joshua Walter Kimmich</h5>
+            <p>German Professional Footballer: Player of Bayern Munich</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./Images/Player4.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-caption d-none d-md-block tchange">
+            <h5>Rodrygo Silva de Goes</h5>
+            <p>Brazilian Professional Footballer: Player of Real Madrid</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END -->
+
+    <!-- Card -->
+    <div class="myMargin1 row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Jersey1.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Jersey: Liverpool FC</b></h5>
+            <p class="card-text">
+              The official jersey of <a href="https://www.liverpoolfc.com/" target="_blank">Liverpool Football Club</a>. They won 2 domestic cups in 2021-22 season. They won 6 Champions Cup Trophies.
+            </p> 
+            <p>
+              <i>Price: $58.55</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Jersey2.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Jersey: Borussia Dortmund</b></h5>
+            <p class="card-text">
+              The official jersey of <a href="https://www.bvb.de/" target="_blank">Ballspielverein Borussia 09 e. V. Dortmund</a>. They won DFB-Pokal in 2020-21 season. They won 1 Champions Cup Trophy.
+            </p> 
+            <p>
+              <i>Price: €84.99</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Jersey3.png" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Jersey: AC Milan</b></h5>
+            <p class="card-text">
+              The official jersey of <a href="https://www.acmilan.com/en" target="_blank">Associazione Calcio Milan</a>. They won Seria A title in 2021-22 season. They won 7 Champions Cup Trophies.
+            </p> 
+            <p>
+              <i>Price: £60.21</i>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Boot1.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Puma Evopower</b></h5>
+            <p class="card-text">
+              The evopower 1.3 is engineered to optimize the interaction between kicking velocity and accuracy. The innovative one-way stretchable adaplite upper material together with the gsf outsole technology allows the foot to bend like in a barefoot kicking motion, thus enabling for optimum power delivery to the ball.
+            </p>
+            <p>
+              <i>Price: $69.77</i> 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Boot2.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Nike Mercurial</b></h5>
+            <p class="card-text">
+              Inspired by a track spike and informed by speed, Nike launched the Mercurial in the summer of 1998. Its thin plate was designed to reduce the boot's weight and the KNG-100 synthetic upper — thinner and lighter than traditional leather — changed the way football footwear was made.
+            </p>
+            <p>
+              <i>Price: $85</i> 
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card text-bg-light">
+          <img src="./Images/Boot3.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title"><b>Nike Hypervenom</b></h5>
+            <p class="card-text">
+              The Nike Hypervenom is a football boot manufactured by Nike. This type of boot is said to be for traction, power, and agility, designed for deceptive players. Therefore, it is endorsed/worn by players, notably forwards, such as Robert Lewandowski, Harry Kane, Edinson Cavani, etc.
+            </p>
+            <p>
+              <i>Price: $109.99</i> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
