@@ -1,3 +1,8 @@
+.whole
+{
+    background-color: rgb(255, 252, 242);
+}
+
 .navShad
 {
     box-shadow: 4px 4px 4px rgb(176, 220, 248);
@@ -17,4 +22,24 @@
 .tchange
 {
     color:darkred;
+}
+
+.myMargin2
+{
+    margin-top: 45px;
+}
+
+.myImg img
+{
+    width: 35px;
+}
+
+.myHeight
+{
+    height: 90px;
+}
+
+.card
+{
+    box-shadow: 4px 4px 4px grey;
 }
