@@ -1,0 +1,39 @@
+.upper
+{
+    background-color: #f1fff0;
+}
+
+.mylogo
+{
+
+    width: 350px;
+}
+
+
+.illusize
+{
+    width: 500px;
+    height: 240px;
+}
+
+.outer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.myimg
+{
+    width: 25px;
+}
+
+.thecol
+{
+    color: rgb(3, 3, 96);
+}
+
+.target .card-body
+{
+    background-color: #f1fff0
+}
+
