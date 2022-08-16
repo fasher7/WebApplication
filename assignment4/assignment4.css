@@ -1,0 +1,38 @@
+.myBody
+{
+    background-color: #eee;
+}
+
+img
+{
+    width: 50px;
+}
+
+.myDiv1
+{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.theStyle p .tConfirmed
+{
+    color: darkcyan;
+} 
+
+.theStyle p .tDeath
+{
+    color: darkmagenta;
+} 
+
+.parent
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.myfooter img
+{
+    width: 35px;
+}
