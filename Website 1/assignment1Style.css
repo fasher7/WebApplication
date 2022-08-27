@@ -1,0 +1,133 @@
+.whole
+{
+    background-color: cornsilk;
+}
+
+.part1
+{
+    margin-left: 30px;
+    margin-bottom: 140px;
+    margin-top: 30px;
+}
+
+.part1 h1
+{
+    padding: 5px;
+    color: rgb(133, 128, 128);
+}
+
+.part1 ul
+{
+    color: red;
+}
+
+.part1 img
+{
+    width: 150px;
+    float: right;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.act1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.part1
+{
+    display: flex;
+}
+
+.part2
+{
+    text-align: right;
+    margin-bottom: 200px;
+}
+
+.part2 h2
+{
+    text-align: left;
+}
+
+.part2 p
+{
+    color: rgb(78, 77, 77);
+    text-align: left;
+    padding-right: 100px;
+}
+
+.part2 img
+{
+    width: 500px;
+    float: left;
+    margin-left: 170px;
+    margin-right: 40px;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.mother
+{
+    margin-left: 30px;
+}
+
+.part3
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.part3 p
+{
+    color: rgb(78, 77, 77);
+    font-size: small;
+}
+
+.part4
+{
+    border: 4px solid sandybrown;
+    margin-right: 10px;
+    margin-left: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 25%;
+}
+
+.part4 .E1
+{
+    width: 42%;
+}
+
+.part4 .E2
+{
+    width: 47%;
+}
+
+.part4 .E3
+{
+    width: 68%;
+}
+
+.part4 h2:hover
+{
+    color: rgb(185, 140, 25);
+}
+
+.i1
+{
+    width: 35px;
+}
+
+.inside
+{
+    padding-right: 10px;
+}
+
+footer
+{
+    margin-top: 160px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    opacity: 60%;
+}
